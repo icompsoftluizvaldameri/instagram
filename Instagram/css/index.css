@@ -1,0 +1,169 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.login-container{
+    position: absolute;
+    height: 700px;
+}
+.login{
+    background-color: white;
+    width: 348px;
+    height: 358px;
+    border: 1px solid rgb(230, 230, 230);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 979px;
+    top: 149px;
+
+}
+#box-input-login:hover{
+    cursor: text;
+}
+#box-input-senha{
+    border-radius: 3px;
+    width: 266px;
+    height: 36px;
+    position: absolute;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: #fafafa;
+    margin: 0 40px;
+    bottom: 155px;
+}
+.obter-app-box{
+    width: 348px;
+    height: 5ch;
+    text-align: center;
+    margin: 0px auto 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: -290px;
+}
+#btn-entrar{
+    border-radius: 3px;
+    width: 248px;
+    height: 18px;
+    box-sizing: initial;
+    padding: 5px;
+    font-size: 14px;
+    padding: 5px 9px;
+    border: 1px solid #C1D9FE;
+    color: white;
+    background-color: #C1D9FE;
+    font: 400 13.3333px Arial;
+    position: absolute;
+    bottom: 113px;
+    margin: 0 40px;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+}
+.risco{
+    height: 1px;
+    width: 106.518px;
+    background-color: #efefef;
+    list-style: none;
+    position: absolute;
+    bottom: 89.5px;
+}
+.risco-esquerda{
+    right: 199px;
+}
+.risco-direita{
+    left: 203px;
+}
+.ou{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - calc(1ch + 20px));
+    bottom: 80px;
+    font-size: 12px;
+    width: 18.969px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+    line-height: 15px;
+    margin: 0 18px;
+    font-weight: 600;
+}
+.facebook-icon{
+    background-image: url("../img/face-icon.png");
+    width: 15.994px;
+    height: 15.994px;
+    position: absolute;
+    margin-right: 8px;
+    left: 38px;
+}
+.facebook-btn{
+    width: 268px;
+    height: 19.333px;
+    border: none;
+    position: absolute;
+    padding: 0;
+    left: 51px;
+    bottom: 32px;
+    background-color: transparent;
+    font-weight: 600;
+    color: #385185;
+}
+.facebook-btn:hover{
+    cursor: pointer;
+}
+#esqueceu-senha{
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    color: #003569;
+    width: 100%;
+    text-decoration:none;
+}
+.cadastro-box{
+    background-color: white;
+    width: 348px;
+    height: 43.714px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 0px auto 0;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: -290px;
+}
+.cadastro-box a:hover{
+    cursor: pointer;
+}
+#celular{
+    height: 618px;
+    width: 430px;
+    background-image: url("../img/celular.png");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 580px;
+    top: -255px;
+}
+#img1{
+    width: 243px;
+    height: 428px;
+    background-image: url("../img/img-mov.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 111px;
+    left: 107px;
+    animation: play 10s steps(5) infinite;
+}
+@keyframes play{
+    0% {background-position: 1207px;}
+}
+.aparecer{
+    display: unset;
+}
+#apps-btn{
+    width: 348px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+    bottom: -295px;
+}

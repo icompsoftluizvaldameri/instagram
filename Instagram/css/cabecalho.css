@@ -1,0 +1,103 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+#cabecalho{
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    -webkit-transition: height .2s ease-in-out;
+    transition: height .2s ease-in-out;
+    height: 77px;
+}
+#icons{
+    position: relative;
+    top: -14px;
+    left: 1340px;
+}
+#person-icon{
+    position: relative;
+    bottom: 1px;
+    left: 0px;
+}
+#heart-icon{
+    position: relative;
+    right: 19px;
+    bottom: 4px;
+}
+#compass-icon{
+    position: relative;
+    right: 38px;
+    bottom: 1px;
+}
+#pesquisa-box{
+    height: 26px;
+    width: 216px;
+    position: absolute;
+    left: 44.3%;
+    top: 30.99%;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+#pesquisa{
+    height: 28px;
+    width: 216px;
+    position: relative;
+    left: 0;
+    top: 0;
+    border: none;
+    color: #262626;
+    outline: 0;
+    padding: 3px 10px 3px 26px;
+    z-index: 2;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+#busca{
+    position: relative;
+    top: -25px;
+    left: 94px;
+    color: #999;
+    cursor: text;
+    font-size: 14px;
+    font-weight: 100;
+}
+#lupa-box{
+    position: relative;
+    bottom: 22px;
+    left: 38px;
+}
+#lupa{
+    height: 16px;
+    width: 16px;
+    bottom: 0;
+    left: 0;
+}
+#risco{
+    width: 1px;
+    height: 28px;
+    background-color: black;
+    position: relative;
+    left: 38px;
+    top: -28px;
+}
+#logo{
+    width: 223px;
+    height: 40px;
+    position: relative;
+    left: 469px;
+    top: 25px;
+}
+#logo-img{
+    position: relative;
+    left: 51px;
+    top: -61px;
+}
+#logo-icon{
+    position: relative;
+    left: -4px;
+    top: 1px;
+}

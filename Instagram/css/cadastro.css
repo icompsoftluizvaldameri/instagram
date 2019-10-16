@@ -1,0 +1,288 @@
+.box{
+    height: 700px;
+    width: 800px;
+}
+#cad{
+    background-color: white;
+    width: 348px;
+    height: 543px;
+    border: 1px solid rgb(230, 230, 230);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    left: 777px;
+    position: relative;
+    top: 39px;
+
+}
+.possui-conta{
+    background-color: white;
+    width: 348px;
+    height: 43.714px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 0px auto 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: -479px;
+}
+#box-input-numero{
+    border-radius: 3px;
+    width: 266px;
+    height: 36px;
+    position: absolute;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: #fafafa;
+    margin: 0 40px;
+    bottom: 82px;
+}
+#box-input-nome {
+    border-radius: 3px;
+    width: 266px;
+    height: 36px;
+    position: absolute;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: #fafafa;
+    margin: 0 40px;
+    bottom: 38px;
+}
+#box-input-usuario {
+    border-radius: 3px;
+    width: 266px;
+    height: 36px;
+    position: absolute;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: #fafafa;
+    margin: 0 40px;
+    bottom: -6px;
+}
+#box-input-senha-nova{
+    border-radius: 3px;
+    width: 266px;
+    height: 36px;
+    position: absolute;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: #fafafa;
+    margin: 0 40px;
+    bottom: -50px;
+}
+.facebook-btn{
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color: #fff;
+    height: 20px;
+    width: 248px;
+    padding: 5px 9px;
+    box-sizing: content-box;
+    position: relative;
+    bottom: -58px;
+    left: 40px;
+}
+.risco{
+    height: 1px;
+    width: 106.518px;
+    background-color: #efefef;
+    list-style: none;
+    position: absolute;
+    bottom: 147px;
+}
+.risco-esquerda-c{
+    right: 199px;
+}
+.risco-direita-c{
+    left: 203px;
+}
+.ou{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - calc(1ch + 21px));
+    bottom: 136px;
+    font-size: 12px;
+    width: 18.969px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+    line-height: 15px;
+    margin: 0 18px;
+    font-weight: 600;
+}
+#texto-inicial{
+    position: absolute;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 17px;
+    margin: 0 40px 10px;
+    color: #999;
+    text-align: center;
+    left: 25px;
+}
+#btn-cadastro{
+    position: relative;
+    bottom: -293px;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color: #fff;
+    width: 248px;
+    height: 18px;
+    padding: 5px 9px;
+    box-sizing: content-box;
+    font-weight: 600;
+    left: 40px;
+}
+#btn-cadastro:hover{
+    cursor: pointer;
+}
+.cadastrar a{
+    cursor: pointer;
+}
+.facebook-btn:hover{
+    cursor: pointer;
+}
+.str:hover{
+    cursor: pointer;
+}
+.facebook-icon{
+    background-image: url("../img/face-icon-2.png");
+    width: 15.994px;
+    height: 15.994px;
+    position: absolute;
+    margin-right: 8px;
+    left: 47px;
+    top: 7px;
+}
+.facebook{
+    font-weight: 600;
+    position: relative;
+    top: 1px;
+    left: 11px;
+}
+nav{
+    position: relative;
+    bottom: -325px;
+}
+#copy{
+    position: relative;
+    bottom: -306px;
+    left: 1270px;
+    font-size: 11.5px;
+    width: 200px;
+    margin: 0;
+    color: #999;
+}
+.obter-app-box p{
+    width: 348px;
+    height: 5ch;
+    text-align: center;
+    margin: 0px auto 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0px;
+}
+.obter-app-box{
+    width: 348px;
+    height: 5ch;
+    text-align: center;
+    margin: 0px auto 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: -480px;
+}
+#apps-btn{
+    width: 348px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+    bottom: -482px;
+}
+#coockies{
+    position: relative;
+    bottom: -313px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #999;
+}
+#coockies strong{
+    font-weight: 600;
+}
+#input-nome-c{
+    width: 246px;
+    height: 36px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    left: 10px;
+    outline: 0;
+}
+#input-user-c{
+    width: 246px;
+    height: 36px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    left: 10px;
+    outline: 0;
+}
+#input-login-c{
+    width: 246px;
+    height: 36px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    left: 10px;
+    outline: 0;
+}
+#input-senha-c{
+    width: 246px;
+    height: 36px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    left: 10px;
+    outline: 0;
+}
+#form-numero{
+    position: absolute;
+    font-size: 12px;
+    left: 9px;
+    top: 8px;
+    color: #999;
+    transition: transform 0.15s;
+}
+#form-nome{
+    position: absolute;
+    font-size: 12px;
+    left: 9px;
+    top: 8px;
+    color: #999;
+    transition: transform 0.15s;
+}
+#form-nome-usuario{
+    position: absolute;
+    font-size: 12px;
+    left: 9px;
+    top: 8px;
+    color: #999;
+    transition: transform 0.15s;
+}
+#form-numero:hover{
+    cursor: text;
+}
+#form-nome:hover{
+    cursor: text;
+}
+#form-nome-usuario:hover{
+    cursor: text;
+}
+#box-input-senha-c{
+    border-radius: 3px;
+    width: 266px;
+    height: 36px;
+    position: absolute;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: #fafafa;
+    margin: 0 40px;
+    bottom: -50px;
+}
